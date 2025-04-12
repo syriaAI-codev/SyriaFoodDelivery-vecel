@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 353 94% 68%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 173 100% 32%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 42 100% 63%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 353 94% 68%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 353 94% 68%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 173 100% 32%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 42 100% 63%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 353 94% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-tajawal bg-background text-foreground antialiased;
+  }
+  
+  /* RTL overrides for TailwindCSS default spacing */
+  .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+  
+  .mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+  
+  .category-item {
+    @apply flex flex-col items-center p-3 rounded-lg bg-neutral-100 hover:bg-primary/5 cursor-pointer transition-transform duration-200 hover:-translate-y-1;
+  }
+  
+  .restaurant-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-neutral-200;
+  }
+  
+  .dish-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow;
+  }
+  
+  .custom-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+}

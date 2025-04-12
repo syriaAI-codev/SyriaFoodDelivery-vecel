@@ -1,0 +1,36 @@
+
+
+Project name
+syriaFood's Project
+
+Project ID
+jxjpnmwydldorerjjfhe
+
+========================
+Supabase URL:
+https://jxjpnmwydldorerjjfhe.supabase.co
+
+Supabase Anon Key:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4anBubXd5ZGxkb3JlcmpqZmhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM3NTU0MjEsImV4cCI6MjA1OTMzMTQyMX0.jx0eS89r6eqf2TJPCiqw_pj34uslPqRZHmVCdBtVZ-o
+
+JWT Secret
+V1Cr00DKHizsn2KuXqFnAQ2aLbmbTzcYQ6TbW7CQz/xiO1vg8xxMBohzg/HljzHmzWC00jWlCC+voSRGxlvKYw==
+
+Google Maps API Key : AIzaSyALNa25I6iVPdV6WwI-MdKQ2nQo68lx4C8
+
+
+Access Tokens
+Personal access tokens can be used with our Management API or CLI.
+sbp_221c03c5a2d31730f9ffd4b15641f14d43889f16
+
+secret
+service_role :
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4anBubXd5ZGxkb3JlcmpqZmhlIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0Mzc1NTQyMSwiZXhwIjoyMDU5MzMxNDIxfQ.-1qglXrDPXkeFHAjYpA3un1cb6RQf6ojO5ecr02jlDU
+
+
+S3 Access Keys
+secret access of S3 Access Keys
+f44eaafdb0b0df5b073af2a2e23138c39b946617bf01f55a0f96e885df9714a9
+
+id of S3 Access Keys
+ad7b36459eb611fefa632d8c1dc50e00
